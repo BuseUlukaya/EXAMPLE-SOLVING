@@ -1,0 +1,24 @@
+1. Start.
+
+2. Read an input number n ∈ ℕ.
+
+3. Assign initial values:
+
+   	F₀ = 0, F₁ = 1,
+
+        S = 0 (sum of even Fibonacci numbers).
+
+4. Begin generating Fibonacci numbers:
+
+5. Compute the new term: Fₖ = Fₖ₋₁ + Fₖ₋₂.
+
+	If Fₖ ≥ n, exit the loop.
+
+	If Fₖ mod 2 = 0, i.e., Fₖ ∈ 2ℕ, then
+	S ← S + Fₖ.
+
+6. Move to the next term (k ← k + 1).
+
+7. After the loop ends, output S.
+
+8. End.
