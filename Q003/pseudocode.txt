@@ -1,0 +1,23 @@
+Pseudocode – Largest Prime Number up to N
+
+1. Start
+
+2. Read number from user
+
+3. Set max ← 0
+
+4. For each i from 2 to number do
+	 4.1 Set prime ← 1
+	 4.2 For each j from 2 to i / 2 do
+             If i mod j = 0 then
+             Set prime ← 0
+             Break inner loop
+        4.3. End inner loop
+        4.4. If prime = 1 and i > max then
+             Set max ← i
+
+5. End outer loop
+
+6. Print "Largest prime number: " and max
+
+7. Stop
